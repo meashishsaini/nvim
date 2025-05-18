@@ -7,15 +7,12 @@ return {
         settings = {
           typescript = {
             tsserver = {
-              maxTsServerMemory = 14336, -- 14GB
+              maxTsServerMemory = 16384, -- 16GB
             },
           },
           vtsls = {
             experimental = {
               maxInlayHintLength = 10,
-              completion = {
-                enableServerSideFuzzyMatch = true,
-              },
             },
           },
         },
